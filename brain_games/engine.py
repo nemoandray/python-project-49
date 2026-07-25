@@ -1,5 +1,6 @@
-from brain_games.cli import welcome_user
 import prompt
+
+from brain_games.cli import welcome_user
 
 
 def run(description, get_round):
