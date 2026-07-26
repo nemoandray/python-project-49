@@ -1,9 +1,9 @@
 import random
 
 
-def calculation():
-    number_1 = random.randint(1, 100)
-    number_2 = random.randint(1, 100)
+def get_round():
+    number_1 = random.randint(1, 30)
+    number_2 = random.randint(1, 30)
     operator = random.choice(('+', '-', '*'))
     question = f'{number_1} {operator} {number_2}'
     if operator == '+':
